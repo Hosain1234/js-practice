@@ -18,4 +18,17 @@ items.pop();
 items.shift();
 items.shift();
 items.pop();
-console.log(items);
+// console.log(items);
+
+
+
+// conditionals
+if(items.length > 10){
+    console.log('Too many items');
+} 
+else if(items.length == 4){
+    console.log("You have sufficient items");
+}
+else{
+    console.log("Less items");
+};
